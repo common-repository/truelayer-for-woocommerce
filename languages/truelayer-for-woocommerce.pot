@@ -1,0 +1,407 @@
+# Copyright (C) 2024 Krokedil
+# This file is distributed under the same license as the TrueLayer for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TrueLayer for WooCommerce 1.4.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/truelayer-woocommerce\n"
+"POT-Creation-Date: 2024-04-26 12:06:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/admin/class-truelayer-admin-notices.php:68
+msgid ""
+"<b>TrueLayer for WooCommerce</b> was unable to save data to the "
+"<code>wp-config.php</code> file. The following code needs to be manually "
+"added to <code>wp-config.php</code> for the plugin to function properly.\n"
+" "
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:123
+#: classes/class-truelayer-callbacks.php:206
+msgid "TrueLayer payment failed."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:127
+#: classes/class-truelayer-callbacks.php:210
+msgid "TrueLayer payment failed: payment provider rejection."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:131
+#: classes/class-truelayer-callbacks.php:214
+#: classes/class-truelayer-confirmation.php:73
+msgid "TrueLayer payment failed: unkown event."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:165
+msgid "TrueLayer payment settlement failed. Failure reason: "
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:177
+#. Translators: TrueLayer payment source id and payment user id returned in
+#. payment settled callback.
+msgid "TrueLayer payment settled. Payment source id: %1$s. Payment user id: %2$s."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:243
+msgid "TrueLayer payout executed failed. Failure reason: "
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:253
+#. Translators: TrueLayer payment source id and payment user id returned in
+#. payment settled callback.
+msgid "TrueLayer payout executed. Payout id: %1$s."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:280
+#. Translators: Payout failure reason.
+msgid "TrueLayer payout failed. Failure reason: %s."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:307
+msgid "TrueLayer refund executed failed. Failure reason: "
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:317
+#. Translators: TrueLayer payment source id and payment user id returned in
+#. payment settled callback.
+msgid "TrueLayer refund executed. Refund id: %1$s."
+msgstr ""
+
+#: classes/class-truelayer-callbacks.php:344
+#. Translators: Payout failure reason.
+msgid "TrueLayer refund failed. Failure reason: %s."
+msgstr ""
+
+#: classes/class-truelayer-confirmation.php:57
+msgid "Something went wrong, please contact the store owner."
+msgstr ""
+
+#: classes/class-truelayer-confirmation.php:69
+msgid "Customer canceled the TrueLayer payment."
+msgstr ""
+
+#: classes/class-truelayer-encryption.php:91
+#: classes/class-truelayer-encryption.php:100 truelayer-for-woocommerce.php:79
+#: truelayer-for-woocommerce.php:88
+msgid "Nope"
+msgstr ""
+
+#: classes/class-truelayer-encryption.php:206
+msgid ""
+"There was an error when encrypting the settings for TrueLayer, please "
+"reconfigure the plugin and ensure the settings are saved properly."
+msgstr ""
+
+#: classes/class-truelayer-encryption.php:235
+msgid ""
+"There was an error when decrypting the settings for TrueLayer, please "
+"reconfigure the plugin and ensure the settings are saved properly."
+msgstr ""
+
+#: classes/class-truelayer-encryption.php:271
+msgid ""
+"There was an error when loading the encryption key for TrueLayer, please "
+"ensure the encryption key saved in the <code>wp-config.php</code> file as "
+"<code>TRUELAYER_KEY</code> has not been modified. To reset delete the "
+"definition and add a new key."
+msgstr ""
+
+#: classes/class-truelayer-fields.php:25
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:26
+msgid "Enable TrueLayer"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:32
+msgid "Title"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:34
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/class-truelayer-fields.php:35
+msgid "Instant Bank Transfer"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:39
+msgid "Description"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:41
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/class-truelayer-fields.php:47
+msgid "Test mode"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:49
+msgid "Enable test mode for TrueLayer"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:54
+msgid "Logging"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:55
+msgid "Log debug messages"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:57
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: classes/class-truelayer-fields.php:68
+msgid "Account holder name"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:70
+msgid "Enter your Truelayer beneficiary account holder name"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:75
+msgid "Merchant Account ID - GBP"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:77
+msgid "Enter your TrueLayer GBP Merchant Account ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:82
+msgid "Merchant Account ID - EUR"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:84
+msgid "Enter your TrueLayer EUR Merchant Account ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:89
+msgid "Available EUR countries"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:92
+msgid ""
+"Select the countries that should be available in checkout if EUR is the "
+"selected currency."
+msgstr ""
+
+#: classes/class-truelayer-fields.php:94
+msgid "France"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:95
+msgid "Ireland"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:96
+msgid "Lithuania"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:97
+msgid "Netherlands"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:98
+msgid "Spain"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:111
+msgid "Client ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:113
+msgid "Enter your TrueLayer Client ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:118
+msgid "Client Secret"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:120
+msgid "Enter your TrueLayer Client Secret"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:127
+msgid "Client Certificate"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:129
+msgid "Enter your TrueLayer Client Certificate"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:134
+msgid "Client Private Key"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:136
+msgid "Enter your TrueLayer Client Private Key"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:147
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:149
+msgid "Enter your TrueLayer Sandbox Client ID"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:154
+msgid "Sandbox Client Secret"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:156
+msgid "Enter your TrueLayer Sandbox Client Secret"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:162
+msgid "Sandbox Client Certificate"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:164
+msgid "Enter your TrueLayer Sandbox Client Certificate"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:169
+msgid "Sandbox Client Private Key"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:171
+msgid "Enter your TrueLayer Sandbox Client Private Key"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:176
+msgid "TrueLayer advanced settings"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:181
+msgid "Banking Provider Types"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:184
+msgid "Retail"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:185
+msgid "Business"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:186
+msgid "Corporate"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:193
+msgid "Release channel"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:195
+msgid "Enter the release channel that you wish to use for TrueLayer"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:201
+msgid "Payments Page Types"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:204
+msgid "Hosted Payments Page"
+msgstr ""
+
+#: classes/class-truelayer-fields.php:205
+msgid "Embedded Payments Page"
+msgstr ""
+
+#: classes/class-truelayer-gateway.php:35
+#: includes/admin/views/status-report.php:17
+msgid "TrueLayer"
+msgstr ""
+
+#: classes/class-truelayer-gateway.php:36
+msgid "Direct bank payments via TrueLayer."
+msgstr ""
+
+#: classes/class-truelayer-gateway.php:151
+msgid "Failed creating order with TrueLayer"
+msgstr ""
+
+#: classes/class-truelayer-gateway.php:206
+#. translators: refund error.
+msgid "TrueLayer order refund failed: %s"
+msgstr ""
+
+#: classes/class-truelayer-gateway.php:211
+#. translators: refund amount.
+msgid ""
+"TrueLayer received refund request (%s). Awaiting refund executed "
+"notification from TrueLayer."
+msgstr ""
+
+#: includes/admin/views/status-report.php:17
+msgid "TrueLayer System Status."
+msgstr ""
+
+#: includes/admin/views/status-report.php:29
+msgid "Time"
+msgstr ""
+
+#: includes/admin/views/status-report.php:31
+msgid "Request"
+msgstr ""
+
+#: includes/admin/views/status-report.php:32
+msgid "Response Code"
+msgstr ""
+
+#: includes/admin/views/status-report.php:33
+msgid "Response Message"
+msgstr ""
+
+#: includes/admin/views/status-report.php:67
+msgid "No error logs"
+msgstr ""
+
+#: includes/truelayer-functions.php:34
+msgid "Order successfully placed with TrueLayer. Payment transaction id:"
+msgstr ""
+
+#: truelayer-for-woocommerce.php:153 truelayer-for-woocommerce.php:162
+msgid ""
+"Your installation of TrueLayer for WooCommerce is not complete. If you "
+"installed this plugin directly from Github please refer to the "
+"readme.dev.txt file in the plugin."
+msgstr ""
+
+#: truelayer-for-woocommerce.php:180
+msgid "Settings"
+msgstr ""
+
+#: truelayer-for-woocommerce.php:181
+msgid "Support"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "TrueLayer for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://krokedil.com/product/truelayer-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "TrueLayer for WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Krokedil"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://krokedil.com/"
+msgstr ""
